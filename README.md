@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/akexorcist/Android-BluetoothSPP.svg?branch=master)](https://travis-ci.org/akexorcist/Android-BluetoothSPP)
 Android-BluetoothSPPLibrary
 ===========================
 
@@ -8,7 +9,6 @@ Android-BluetoothSPPLibrary
 Bluetooth Serial Port Profile which comfortable to developer application to communication with microcontroller or android device via bluetooth.
 
 This libraly include all important methods for serial port profile on bluetooth communication. It has built-in bluetooth device list.
-
 
 
 
@@ -28,18 +28,37 @@ Feature
 • Listener for receive data from connection device
 
 
+Download
+--------------
+
+Maven
+```
+<dependency>
+  <groupId>com.akexorcist</groupId>
+  <artifactId>bluetoothspp</artifactId>
+  <version>1.0.0</version>
+</dependency>
+```
+
+Gradle
+```
+compile 'com.akexorcist:bluetoothspp:1.0.0'
+```
 
 
 Simple Usage
 --------------
 
-• Import this library to your workspace and include in to your android project
+• Import this library to your workspace and include in to your android project 
+For Eclipse ADT : Download this library and import into your workspace and include this library to your project
+For Android Studio : Use Gradle to download this library from Maven
 
 
-• You need to merge android manifest on this library to your project by declare like this on project.properties
+• Declare permission for library
 
-```java
-manifestmerger.enabled=true
+```xml
+<uses-permission android:name="android.permission.BLUETOOTH" />
+<uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
 ```
 
 • Declare BluetoothSPP like this

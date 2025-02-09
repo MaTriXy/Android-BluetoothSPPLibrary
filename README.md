@@ -1,3 +1,6 @@
+
+# ⚠ WARNING: This project is no longer being maintained
+
 [![Build Status](https://travis-ci.org/akexorcist/Android-BluetoothSPP.svg?branch=master)](https://travis-ci.org/akexorcist/Android-BluetoothSPP)
 Android-BluetoothSPPLibrary
 ===========================
@@ -276,6 +279,15 @@ startActivityForResult(intent, BluetoothState.REQUEST_CONNECT_DEVICE);
 
 ![Custom Device List Text](https://raw.githubusercontent.com/akexorcist/Android-BluetoothSPPLibrary/master/image/010.png)
 
+
+
+What's next?
+===========================
+- Connection Dialog 
+- Add Insecure Connection
+- Fix bug on this issue https://github.com/akexorcist/Android-BluetoothSPPLibrary/issues/21
+- Merge the code from https://github.com/akexorcist/Android-BluetoothSPPLibrary/pull/14 for a problem of auto connection
+- Human Readable Log https://github.com/akexorcist/Android-BluetoothSPPLibrary/issues/19
 
 
 
